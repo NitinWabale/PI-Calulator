@@ -1,0 +1,21 @@
+{
+    "name": "pi-calculator",
+    "description": "Service responsible PI calculation",
+    "version": "1.0.0",
+    "repository": {
+      "type": "git"
+    },
+    "license": "UNLICENSED",
+    "main": "./app/index.js",
+    "files": [
+      "app"
+    ],
+    "dependencies": {
+        "koa": "^2.6.2",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.0.1"
+    },
+    "devDependencies": {
+    }
+  }
+  
