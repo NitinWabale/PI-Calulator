@@ -1,4 +1,4 @@
-# Pi cal API
+# Pi Calculation API
 This repo contains the API Surface for Pi calculator
 
 ## Consuming this service
