@@ -7,8 +7,10 @@ const piCalculatorController = require("./controller/piCalculator");
  */
 function listen() {
   const koaApp = new Koa();
+  koaApp.use(bodyParser());
   koaApp.use(piCalculatorController.routes(), piCalculatorController.allowedMethods());
-  koaApp.listen(80);
+  koaApp.listen(1000);
+  console.log('listening on port 1000')
 }
 
 module.exports = { listen };
